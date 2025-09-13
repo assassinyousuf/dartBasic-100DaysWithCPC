@@ -8,204 +8,25 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
-        body: SingleChildScrollView(
-          scrollDirection: Axis.horizontal,  // Set scroll direction to horizontal
-          child: Row(  // Use Row instead of Column
-            children: [
-              Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
+        body: Column(
+          children: [
+            Expanded(
+              flex: 2,
+              child: Container(
+                width: double.infinity,
+                height: 300.0,
+                color: Colors.purple,
               ),
-              Container(
+            ),
+            Expanded(
+              flex: 1,
+              child: Container(
+                width: double.infinity,
+                height: 300.0,
                 color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
               ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),Container(
-                color: Colors.red,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.green,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-              Container(
-                color: Colors.blue,
-                height: 850.0,
-                width: 100.0,  // Set width to a fixed value
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
