@@ -8,28 +8,20 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
-        body: Column(
-          children: [
-            Expanded(
-              flex: 2,
-              child: Container(
-                width: double.infinity,
-                height: 300.0,
-                color: Colors.purple,
+        body: Center(
+          child: Container(
+            width: 100.0,
+            height: 40.0,
+            child: ElevatedButton(
+              onPressed: () {},
+              child: Row(
+                children: [
+                  Icon(Icons.search),
+                  Text("Search"),
+                ],
               ),
             ),
-            Expanded(
-              flex: 1,
-              child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
-                child: Container(
-                  width: double.infinity,
-                  height: 300.0,
-                  color: Colors.green,
-                ),
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );
