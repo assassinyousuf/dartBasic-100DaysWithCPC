@@ -8,17 +8,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
-        body: Center(
-          child: Container(
-            width: 100.0,
-            height: 40.0,
-            child: ElevatedButton(
-              onPressed: () {},
-              child: Row(
-                children: [
-                  Icon(Icons.search),
-                  Text("Search"),
-                ],
+        body: Container(
+          color: Colors.red,
+          child: Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Card(
+              child: Image.network(
+                "https://th.bing.com/th/id/R.d6623897be1a53a6bec001a1db038778?rik=rXUo0nUmqiuQ3g&pid=ImgRaw&r=0",
               ),
             ),
           ),
