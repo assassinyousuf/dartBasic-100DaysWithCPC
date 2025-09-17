@@ -8,18 +8,20 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
-        body: Container(
-          color: Colors.red,
-          child: Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: Card(
-              child: Image.network(
-                "https://th.bing.com/th/id/R.d6623897be1a53a6bec001a1db038778?rik=rXUo0nUmqiuQ3g&pid=ImgRaw&r=0",
-              ),
-            ),
+        appBar: AppBar(
+          title: Text("I am the title area"),
+          leading: Icon(Icons.search),
+          actions: [
+            Icon(Icons.alarm),
+            Icon(Icons.notification_add),
+          ],
+        ), // AppBar
+        body: Center(
+          child: Container(
+            child: Text("Hello World"),
           ),
-        ),
-      ),
-    );
+        ), // Center
+      ), // Scaffold
+    ); // MaterialApp
   }
 }
