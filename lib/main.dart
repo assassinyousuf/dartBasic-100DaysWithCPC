@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -9,19 +11,194 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          title: Text("I am the title area"),
-          leading: Icon(Icons.search),
-          actions: [
-            Icon(Icons.alarm),
-            Icon(Icons.notification_add),
-          ],
-        ), // AppBar
-        body: Center(
-          child: Container(
-            child: Text("Hello World"),
+          title: Text('Material App Bar'),
+        ),
+        body: Container(
+          height: double.infinity,
+          width: double.infinity,
+          child: ListView(
+            children: [
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  width: double.infinity,
+                  height: 100.0,
+                  color: Colors.redAccent,
+                ),
+              ),
+            ],
           ),
-        ), // Center
-      ), // Scaffold
-    ); // MaterialApp
+        ),
+      ),
+    );
+  }
+}
+
+class MyWidget extends StatelessWidget {
+  const MyWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }
