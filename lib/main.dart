@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
             ListItem(color: Colors.green, text: 'Hi'),
             ListItem(color: Colors.red, text: 'Hello'),
             ListItem(color: Colors.blue, text: 'Greetings'),
+            ListItem(color: Colors.blue, text: 'Greetings'),
             // Add more if you like:
             // ListItem(color: Colors.purple, text: 'Another one'),
           ],
